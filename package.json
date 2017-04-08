@@ -1,0 +1,23 @@
+{
+  "name": "tweet-pull-node",
+  "version": "1.0.0",
+  "description": "Pull all tweets from user account and place them in a .csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tweet-pull-node"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Jordan Barber",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "twitter": "^1.7.0"
+  }
+}
